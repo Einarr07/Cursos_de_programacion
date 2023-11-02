@@ -22,15 +22,15 @@ print("\nConjuntos parte 2")
 a = {1,2,3}
 b = {3,4,5,6}
 
-# Para realizar la union de dos conjuntos utilizamos |
+# Para realizar la UNION de dos conjuntos utilizamos |
 c = a | b
 print(c)
 
-# Para hacer la intersección entre dos conjuntos utilizamos &
+# Para hacer la INTERSECCIÓN entre dos conjuntos utilizamos &
 d = a & b
 print(d)
 
-# Para saber la diferencia entre dos conjuntos utilizamos -
+# Para saber la DIFERENCIA entre dos conjuntos utilizamos -
 # En este caso vemos elementos que estan en a y no en b
 e = a - b
 print(e)
