@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"> <!-- asentos o emogis-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- ancho de contenido (ancho pantalla)-->
+    
+    <meta name="description" content="Portafolio de Mateo Congo, estudiante de la Escuela Politécnica Nacional">
+
+    <title>Portafolio Mateo Congo</title>
+
+    <link rel="icon" type="imagenes/jpg" href="imagenes/Foto de presentación.jpg">
+
+    <style>
+        h1{
+            color: skyblue;
+        }
+
+        body{
+            background-color: #b85464;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Portafolio Mateo estudiante de Tecnología Superior en Desarrollo De Software👨🏾‍💻</h1>
+        <nav>
+            <!-- Enlaces internos-->
+            <a href="#expericiencia">Experiencia</a>
+            <a href="#proyectos"> Proyectos</a>
+            <a 
+            href="https://github.com/Einarr07"
+            target="_blank"
+            rel="noreferer"
+            > GitHub</a>
+        </nav>
+    </header>
+    
+    <main>
+    <p>Soy estudiantes de la carrera de <strong>desarrollador de software</strong> en la politécnica nacional</p>
+
+    <h2 id="experiencia">Experiencia</h2>
+
+    <ul>
+        <li class="list-item">Golden Companies - 2023 </li>
+    </ul>
+
+    <img 
+        title="Foto de presentación Mateo Congo" 
+        alt="Foto de presentación" 
+        src="imagenes/Foto de presentación.jpg" 
+        height="350px"
+    >
+
+    <h2 id="proyectos">Proyectos realizados</h2>
+
+    <aside>
+        <header>
+            <h3>Mis tecnologías favoritas</h3>
+        </header>
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Node.js</li>
+            <li>Python</li>
+        </ol>
+    </aside>
+
+    <section>
+        <article>
+            <header>
+                <h4>Sitio web comparativo</h4>
+            </header>
+            <p>
+                Desarrollo de un sitio web comparativo con una interfaz 
+                amigable para el usuario
+            </p>
+
+            <footer>
+                <small>Tecnologías utilizadas: HTML, CSS, JavaScript</small>
+            </footer>
+        </article>
+    </section>
+
+    <section>
+        <h2>Preguntas frecuentes</h2>
+
+        <details>
+            <summary>¿Qué estudios tienes?</summary>
+            <p>
+                Estudio en la Escuela Politécnica Nacional siguiendo 
+                la carrera de Tecnología Superior en Desarrollo de Software
+            </p>
+        </details>
+
+        <details>
+            <summary>¿Cuales son tus hobbies?</summary>
+            <p>
+                Me gusta mucho el deporte referente a las artes marciales
+                practique boxeo desde los 15 años hasta el 2019 cuando 
+                llego el virus
+            </p>
+        </details>
+    </section>
+
+    <section>
+        <h2>Formulario de contacto</h2>
+
+        <form method="post" action="/">
+            <fieldset>
+                <legend>Información personal</legend>
+
+                <label style="display: block;">Nombre:
+                <input 
+                    type="text" 
+                    name="name"
+                    placeholder="Marin Ramirez">
+                </label>
+
+                <label style="display: block;">Correo:
+                    <input 
+                        type="email" 
+                        name="email"
+                        placeholder="marin@gmail.com">
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Información adicional</legend>
+
+                <label> Telefono:
+                    <input 
+                    type="tel"
+                    name="telefono"
+                    placeholder="593-789461236">
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Otros</legend>
+
+                <div>
+                <label for="why"> ¿Por qué quieres contactar?:
+                    <select name="why" id="why">
+                        <option value="1">Trabajo</option>
+                        <option value="2">Duda</option>
+                        <option value="3">Más Información</option>
+                    </select>
+                </label>
+                </div>
+
+                <div>
+                    <datalist id="laguages">
+                        <option value="JavaScript"></option>
+                        <option value="Java"></option>
+                        <option value="Python"></option>
+                    </datalist>
+                    <label >¿Con qué lenguaje quieres que te ayude?
+                        <input list="laguages" name="laguages">
+                    </label>
+                </div>
+            </fieldset>
+
+            <button>Enviar un correo</button>
+        </form>
+    </section>
+
+    </main>
+
+    <footer>
+        <a href="mailto:aidenperse@gmail.com">Enviame un correo</a>
+    </footer>
+</body>
+</html>
