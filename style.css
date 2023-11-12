@@ -1,0 +1,95 @@
+
+/* Estilo para el cuerpo de la página */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #b85464;
+  margin: 0;
+  padding: 0;
+  border: 10px solid #333;
+  padding: 20px;
+  margin: 10px;
+}
+
+/* Estilo para el encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Estilo para el título de la página */
+h1 {
+  color: skyblue;
+  font-size: 28px;
+}
+
+/* Estilo para los enlaces de navegación */
+nav a {
+  color: red;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/*Estado hover*/
+nav a:hover{
+    color: aqua;
+}
+
+/* Estilo para la imagen de presentación */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  max-height: 300px; /* Tamaño máximo de altura para la imagen */
+  border: 5px solid white; /* Agregar un borde blanco alrededor de la imagen */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Agregar una sombra a la imagen */
+  border-radius: 10px; /* Agregar bordes redondeados */
+}
+
+
+/* Estilo para secciones */
+section {
+  margin-bottom: 20px;
+}
+
+/* Estilo para listas */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Estilo para los detalles */
+details {
+  margin: 10px 0;
+}
+
+/* Estilo para el botón de enviar */
+button {
+  background-color: blue;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.profile-image {
+  display: block;
+  margin: 0 auto;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo para el pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+    
